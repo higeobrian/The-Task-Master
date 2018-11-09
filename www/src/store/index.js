@@ -63,7 +63,7 @@ export default new vuex.Store({
             }          
         },
         setComments(state, comments) {
-            state.comments = comments
+            state.comment = comments
         },
         deleteComment(state) {
             state.comment = {}
@@ -209,14 +209,6 @@ export default new vuex.Store({
             // }
             
          }
-        
-        
-
-
-
-
-
-
-    }
+    
 
 })
