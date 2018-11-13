@@ -1,5 +1,5 @@
 var mongoose = require('mongoose')
-var connectionString = 'mongodb://<dbuser>:<dbpassword>@ds155313.mlab.com:55313/briantaskmanager' //Jasper Server
+var connectionString = 'mongodb://<dbuser>:<dbpassword>@ds155313.mlab.com:55313/briantaskmanager' 
 var connection = mongoose.connection
 
 
